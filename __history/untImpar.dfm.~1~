@@ -1,0 +1,60 @@
+object fmrNumimpar: TfmrNumimpar
+  Left = 0
+  Top = 0
+  Caption = 'Numeros '#205'mpares'
+  ClientHeight = 523
+  ClientWidth = 638
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 192
+    Top = 48
+    Width = 224
+    Height = 27
+    Caption = 'Numeros '#205'mpares'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Lucida Fax'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object memoresult: TMemo
+    Left = 216
+    Top = 208
+    Width = 185
+    Height = 89
+    Lines.Strings = (
+      '')
+    TabOrder = 0
+  end
+  object btngerar: TBitBtn
+    Left = 264
+    Top = 120
+    Width = 75
+    Height = 25
+    Caption = 'Gerar'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Trebuchet MS'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnlimpar: TBitBtn
+    Left = 264
+    Top = 344
+    Width = 75
+    Height = 25
+    Caption = 'Limpar'
+    TabOrder = 2
+  end
+end

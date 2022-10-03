@@ -1,0 +1,28 @@
+unit untImpar;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TfmrNumimpar = class(TForm)
+    memoresult: TMemo;
+    btngerar: TBitBtn;
+    btnlimpar: TBitBtn;
+    Label1: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmrNumimpar: TfmrNumimpar;
+
+implementation
+
+{$R *.dfm}
+
+end.

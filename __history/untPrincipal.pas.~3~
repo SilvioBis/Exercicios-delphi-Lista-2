@@ -1,0 +1,64 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Menus, Vcl.StdCtrls,calcImc;
+
+type
+  TfmrPrincipal = class(TForm)
+    MainMenu1: TMainMenu;
+    Panel1: TPanel;
+    ormulariosdeAtividades1: TMenuItem;
+    NumerosParesempares1: TMenuItem;
+    numimpar: TMenuItem;
+    ndiceDeMassaCorporal1: TMenuItem;
+    Sair1: TMenuItem;
+    btnImc: TButton;
+    btnParImpar: TButton;
+    btnPositivo: TButton;
+    Button4: TButton;
+    procedure btnImcClick(Sender: TObject);
+    procedure ndiceDeMassaCorporal1Click(Sender: TObject);
+    procedure numimparClick(Sender: TObject);
+    procedure btnParImparClick(Sender: TObject);
+  private
+    { Private declarations }
+
+  public
+    { Public declarations }
+  end;
+
+var
+  fmrPrincipal: TfmrPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses untImpar;
+
+
+
+procedure TfmrPrincipal.btnImcClick(Sender: TObject);
+begin
+   fmrImc.ShowModal;
+end;
+
+procedure TfmrPrincipal.btnParImparClick(Sender: TObject);
+begin
+   frmNumimpar.ShowModal;
+end;
+
+procedure TfmrPrincipal.ndiceDeMassaCorporal1Click(Sender: TObject);
+begin
+   fmrImc.ShowModal;
+end;
+
+procedure TfmrPrincipal.numimparClick(Sender: TObject);
+begin
+   frmNumimpar.ShowModal;
+end;
+
+end.

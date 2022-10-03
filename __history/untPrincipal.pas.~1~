@@ -1,0 +1,35 @@
+unit untPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.Menus, Vcl.StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    MainMenu1: TMainMenu;
+    Panel1: TPanel;
+    ormulariosdeAtividades1: TMenuItem;
+    NumerosParesempares1: TMenuItem;
+    IndiceDeMassaCorporea1: TMenuItem;
+    ndiceDeMassaCorporal1: TMenuItem;
+    Sair1: TMenuItem;
+    btnImc: TButton;
+    btnParImpar: TButton;
+    btnPositivo: TButton;
+    Button4: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.

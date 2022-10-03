@@ -1,0 +1,84 @@
+unit calcImc;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfmrImc = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    edtpeso: TEdit;
+    edtaltura: TEdit;
+    btnCalcular: TButton;
+    btnlimpar: TButton;
+    memoresult: TMemo;
+    procedure btnlimparClick(Sender: TObject);
+    procedure btnCalcularClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fmrImc: TfmrImc;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfmrImc.btnCalcularClick(Sender: TObject);
+var peso, altura, imc: double;
+begin
+      if (edtpeso.Text = '') or (edtaltura.Text = '') then
+end ;
+begin
+   Application.MessageBox('Valores Incompletos, Por favor digite!', ' Atenção', MB_OK);
+ end
+
+ else
+
+ begin
+
+      altura := StrToFloat(edtaltura.Text);
+      peso := StrToFloat(edtpeso.Text);
+
+      imc := 0;
+
+      imc := peso/(altura*altura);
+
+      if imc < 20 then
+        begin
+          Application.MessageBox('Você está abaixo do peso ideal', ' Dados Coletados e Calculados', MB_OK);
+          memoresult.Lines.Add('Você está abaixo do peso ideal, Treine, Esforce e Coma mais :p');
+        end
+
+      else if (imc >= 20) and (imc <= 24) then
+
+        begin
+          Application.MessageBox('Você está no peso ideal', ' Dados Coletados e Calculados', MB_OK);
+          memoresult.Lines.Add('Você está no Peso Ideal, Parábens ;)');
+        end
+
+      else if imc > 24 then
+        begin
+          Application.MessageBox('Você está acima do peso ideal', ' Dados Coletados e Calculados', MB_OK);
+          memoresult.Lines.Add('Você está acima do peso ideal, Treine, Esforce e Faça Dieta :(');
+        end;
+ end;
+
+
+procedure TfmrImc.btnlimparClick(Sender: TObject);
+begin
+  edtpeso.Clear;
+  edtaltura.Clear;
+  memoresult.clear;
+
+  edtpeso.SetFocus;
+end;
+
+end.

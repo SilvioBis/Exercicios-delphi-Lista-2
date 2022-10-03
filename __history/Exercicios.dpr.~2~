@@ -1,0 +1,16 @@
+program Exercicios;
+
+uses
+  Vcl.Forms,
+  untPrincipal in 'untPrincipal.pas' {fmrPrincipal},
+  calcImc in 'calcImc.pas' {fmrImc};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfmrPrincipal, fmrPrincipal);
+  Application.CreateForm(TfmrImc, fmrImc);
+  Application.Run;
+end.
