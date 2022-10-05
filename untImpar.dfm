@@ -39,6 +39,20 @@ object frmNumimpar: TfrmNumimpar
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object SpeedButton1: TSpeedButton
+    Left = 64
+    Top = 288
+    Width = 185
+    Height = 65
+    Caption = 'Voltar'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Lucida Fax'
+    Font.Style = [fsBold]
+    ParentFont = False
+    OnClick = SpeedButton1Click
+  end
   object memoresult: TMemo
     Left = 392
     Top = 117
@@ -51,7 +65,7 @@ object frmNumimpar: TfrmNumimpar
   end
   object btngerar: TBitBtn
     Left = 64
-    Top = 105
+    Top = 117
     Width = 185
     Height = 57
     Caption = 'Gerar'
@@ -73,7 +87,7 @@ object frmNumimpar: TfrmNumimpar
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -19
-    Font.Name = 'Trebuchet MS'
+    Font.Name = 'Lucida Fax'
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 2

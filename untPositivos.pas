@@ -12,13 +12,13 @@ type
     memPositivo: TMemo;
     memNegativo: TMemo;
     btnGerar: TBitBtn;
-    edtPositivo: TEdit;
-    edtNegativo: TEdit;
     Label2: TLabel;
     Label3: TLabel;
     btnLimpar: TBitBtn;
+    btnVoltar: TSpeedButton;
     procedure btnGerarClick(Sender: TObject);
     procedure btnLimparClick(Sender: TObject);
+    procedure btnVoltarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -53,8 +53,7 @@ begin
       end;
     end;
 
-    edtNegativo.Text := IntToStr(somaN);
-    edtPositivo.Text := IntToStr(somaP);
+
 
 
 
@@ -66,8 +65,12 @@ procedure TfrmPositivo.btnLimparClick(Sender: TObject);
 begin
       memNegativo.Clear;
       memPositivo.Clear;
-      edtNegativo.Clear;
-      edtPositivo.Clear;
+
+end;
+
+procedure TfrmPositivo.btnVoltarClick(Sender: TObject);
+begin
+      frmPositivo.Close;
 end;
 
 end.

@@ -4,19 +4,20 @@
     <Transaction>2022/10/01 23:48:59.000.368,=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/10/02 01:53:14.000.427,=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/10/02 02:25:53.000.037,=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2022/10/02 02:31:00.000.734,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\calcImc.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2022/10/02 02:31:00.000.734,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\calcImc.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2022/10/02 02:31:38.000.590,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPrincipal.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/02 02:31:38.000.591,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPrincipal.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/10/02 02:32:26.000.778,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Exercicios.dproj=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/10/02 02:31:00.000.734,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\calcImc.pas</Transaction>
+    <Transaction>2022/10/02 02:31:00.000.734,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\calcImc.dfm</Transaction>
+    <Transaction>2022/10/02 02:31:38.000.591,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPrincipal.dfm</Transaction>
+    <Transaction>2022/10/02 02:31:38.000.590,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPrincipal.pas</Transaction>
+    <Transaction>2022/10/02 02:32:26.000.778,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Exercicios.dproj</Transaction>
     <Transaction>2022/10/02 22:56:44.000.504,=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/02 23:07:21.000.998,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untImpar.dfm</Transaction>
-    <Transaction>2022/10/02 23:07:21.000.998,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untImpar.pas</Transaction>
+    <Transaction>2022/10/02 23:07:21.000.998,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untImpar.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/02 23:07:21.000.998,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untImpar.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2022/10/02 23:41:04.000.024,=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/02 23:42:29.000.180,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPositivos.pas</Transaction>
-    <Transaction>2022/10/02 23:42:29.000.180,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPositivos.dfm</Transaction>
-    <Transaction>2022/10/03 01:21:30.887,=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/03 01:34:49.150,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untVal.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/10/03 01:34:49.150,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untVal.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/02 23:42:29.000.180,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPositivos.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/02 23:42:29.000.180,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untPositivos.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/10/03 01:21:30.000.887,=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/10/03 01:34:49.000.150,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untVal.dfm</Transaction>
+    <Transaction>2022/10/03 01:34:49.000.150,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\untVal.pas</Transaction>
+    <Transaction>2022/10/05 01:39:59.572,C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Exercicios.dproj=C:\Users\primo\OneDrive\Documentos\Embarcadero\Studio\Projects\Exercicios.dproj</Transaction>
   </Transactions>
 </BorlandProject>

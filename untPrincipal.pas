@@ -45,7 +45,7 @@ implementation
 
 {$R *.dfm}
 
-uses untImpar, untPositivos, untVal;
+uses untImpar, untPositivos, untVal, untCpf;
 
 
 
@@ -66,7 +66,7 @@ end;
 
 procedure TfmrPrincipal.btnValClick(Sender: TObject);
 begin
-     frmValidador.Showmodal;
+     formcpf.Showmodal;
 end;
 
 procedure TfmrPrincipal.FormCreate(Sender: TObject);
@@ -96,7 +96,7 @@ end;
 
 procedure TfmrPrincipal.VerificarDocumento1Click(Sender: TObject);
 begin
-      frmValidador.Showmodal;
+      formcpf.Showmodal;
 end;
 
 end.

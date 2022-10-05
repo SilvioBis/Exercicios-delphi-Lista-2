@@ -1,6 +1,7 @@
 object frmValidador: TfrmValidador
   Left = 0
   Top = 0
+  Cursor = crAppStart
   Caption = 'Validar CPF'
   ClientHeight = 231
   ClientWidth = 539
@@ -18,7 +19,9 @@ object frmValidador: TfrmValidador
     Top = 24
     Width = 97
     Height = 81
+    Cursor = crAppStart
     Caption = 'Verificar'
+    Layout = blGlyphBottom
     OnClick = btnVerificarClick
   end
   object btnLimpar: TSpeedButton
@@ -37,7 +40,7 @@ object frmValidador: TfrmValidador
     Caption = 'Numero Do Documento'
   end
   object btnVoltar: TSpeedButton
-    Left = 272
+    Left = 281
     Top = 156
     Width = 129
     Height = 36

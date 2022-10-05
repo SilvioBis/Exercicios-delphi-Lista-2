@@ -14,8 +14,8 @@ object frmPositivo: TfrmPositivo
   PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
-    Left = 32
-    Top = 32
+    Left = 104
+    Top = 40
     Width = 507
     Height = 24
     Caption = 'Numeros Positivos e Negativos entre -20 e 20'
@@ -52,21 +52,29 @@ object frmPositivo: TfrmPositivo
     Font.Style = [fsBold]
     ParentFont = False
   end
+  object btnVoltar: TSpeedButton
+    Left = 328
+    Top = 328
+    Width = 75
+    Height = 25
+    Caption = 'Voltar'
+    OnClick = btnVoltarClick
+  end
   object memPositivo: TMemo
     Left = 104
-    Top = 264
+    Top = 104
     Width = 185
-    Height = 89
+    Height = 249
     Lines.Strings = (
       '')
     ScrollBars = ssVertical
     TabOrder = 0
   end
   object memNegativo: TMemo
-    Left = 424
-    Top = 264
+    Left = 426
+    Top = 104
     Width = 185
-    Height = 89
+    Height = 249
     Lines.Strings = (
       '')
     ScrollBars = ssVertical
@@ -76,32 +84,18 @@ object frmPositivo: TfrmPositivo
     Left = 328
     Top = 144
     Width = 75
-    Height = 25
+    Height = 49
     Caption = 'Gerar'
     TabOrder = 2
     OnClick = btnGerarClick
   end
-  object edtPositivo: TEdit
-    Left = 136
-    Top = 400
-    Width = 121
-    Height = 21
-    TabOrder = 3
-  end
-  object edtNegativo: TEdit
-    Left = 464
-    Top = 400
-    Width = 121
-    Height = 21
-    TabOrder = 4
-  end
   object btnLimpar: TBitBtn
     Left = 328
-    Top = 440
+    Top = 248
     Width = 75
     Height = 25
     Caption = 'Limpar'
-    TabOrder = 5
+    TabOrder = 3
     OnClick = btnLimparClick
   end
 end

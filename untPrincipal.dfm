@@ -122,7 +122,7 @@ object fmrPrincipal: TfmrPrincipal
         OnClick = ndiceDeMassaCorporal1Click
       end
       object VerificarDocumento1: TMenuItem
-        Caption = 'Verificar Documento'
+        Caption = 'Verificar CPF'
         OnClick = VerificarDocumento1Click
       end
     end

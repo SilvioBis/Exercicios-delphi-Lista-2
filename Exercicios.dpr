@@ -6,13 +6,16 @@ uses
   calcImc in 'calcImc.pas' {fmrImc},
   untImpar in 'untImpar.pas' {frmNumimpar},
   untPositivos in 'untPositivos.pas' {frmPositivo},
-  untVal in 'untVal.pas' {frmValidador};
+  untVal in 'untVal.pas' {frmValidador},
+  Vcl.Themes,
+  Vcl.Styles;
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Windows10 SlateGray');
   Application.CreateForm(TfmrPrincipal, fmrPrincipal);
   Application.CreateForm(TfmrImc, fmrImc);
   Application.CreateForm(TfrmNumimpar, frmNumimpar);

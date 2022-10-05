@@ -13,8 +13,10 @@ type
     btnlimpar: TBitBtn;
     Label1: TLabel;
     Label2: TLabel;
+    SpeedButton1: TSpeedButton;
     procedure btngerarClick(Sender: TObject);
     procedure btnlimparClick(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -45,6 +47,11 @@ end;
 procedure TfrmNumimpar.btnlimparClick(Sender: TObject);
 begin
   memoresult.Clear;
+end;
+
+procedure TfrmNumimpar.SpeedButton1Click(Sender: TObject);
+begin
+  frmNumImpar.Close;
 end;
 
 end.

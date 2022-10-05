@@ -47,23 +47,25 @@ object frmValidador: TfrmValidador
     Caption = 'Voltar'
     OnClick = btnVoltarClick
   end
-  object edtDoc: TEdit
-    Left = 232
-    Top = 43
-    Width = 137
-    Height = 21
-    TabOrder = 0
-  end
   object radTipoDoc: TRadioGroup
     Left = 24
     Top = 24
     Width = 185
     Height = 123
     Caption = 'Tipo Do Documento'
+    ItemIndex = 0
     Items.Strings = (
       'CPF:'
       'CNPJ:')
-    TabOrder = 1
+    TabOrder = 0
     OnClick = radTipoDocClick
+  end
+  object edtDoc: TMaskEdit
+    Left = 232
+    Top = 56
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = ''
   end
 end
